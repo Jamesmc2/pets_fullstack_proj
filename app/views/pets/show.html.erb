@@ -3,3 +3,7 @@
 <p><%= @pet.breed %></p>
 
 <img src=<%= @pet.image%> alt="Poodle">
+
+<ul>
+  <li><%= link_to "Edit", edit_pet_path(@pet) %></li>
+</ul>
